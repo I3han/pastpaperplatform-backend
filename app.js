@@ -66,15 +66,12 @@ app.post("/api/posts" ,(req,res,next) =>{
   });
 });
 
-app.get("/api/posts", (req,res,next)=>{
+app.get("/", (req,res,next)=>{
 
-  Post.find().then(documents => {
-    //console.log(documents);
     res.status(200).json({
       message:'server working!',
-      posts: documents
     });
-  });
+
 
 })
 app.use("/api/posts", postsRoutes);
