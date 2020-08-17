@@ -1,0 +1,15 @@
+{
+  "name": "ecom-site",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "tether": "^1.4.7",
+    "tslib": "^1.10.0"
+  }
+}
